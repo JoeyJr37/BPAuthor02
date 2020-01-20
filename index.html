@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Benetta Perry: home page">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Niconne&display=swap" rel="stylesheet">
+	
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mainstyles.css">
+	<link rel="stylesheet" type="text/css" href="indexStyles.css">
+    <title>
+      Benetta Perry || Home
+    </title>
+  </head>
+  <body>
+    <header class="cover-page">
+      <nav class="nav-bar">
+		<ul class="nonMobileSite-links">
+		<li><a href="index.html"> Home </a></li>
+		<li><a href="book.html"> Book </a></li>
+		<li><a href="#"> Schedule </a></li>
+		<li><a href="#"> Contact </a></li>
+		</ul>
+	</nav>
+	<div class="mobile-container">
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+		  <div id="myLinks">
+			<a href="index.html">Home</a>
+			<a href="book.html">Book</a>
+			<a href="#">Schedule</a>
+			<a href="#">Contact</a>
+		  </div>
+		  <span class="icon" onclick="myFunction()">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </span>
+		</div>
+		<!-- End smartphone / tablet look -->
+		</div>
+	<div class="title-box">
+		<!-- photo credit: Photo by Hush Naidoo on Unsplash-->
+			<h1 class="title"> Benetta Perry </h1>
+			<h2> Teacher Speaker Writer </h2>
+	</div>
+    </header>
+    <main>
+	<section class="about-section">
+		<span class="small-intro-text"> Who I am</span>
+		<header class="about-section-header">
+			A teacher, speaker & writer from the deep South
+		</header>
+		<p class="about-section-text">
+		Over 40 years ago, I started writing children's stories and poetry and discovered a gift.
+		Since then I taught Bible studies, counseled couples, etc. 
+		</p>
+		<footer class="button-container">
+			<a class="button learn-more-button" href="#">FULL STORY</a>
+			</footer>
+	</section>
+	<section class="see-menu-section">
+		<article class="see-menu-article">
+			<span class="small-intro-text"> What I write</span>
+			<header class="see-menu-header">
+				Discover the will of God for your life
+			</header>
+			<p class="see-menu-text">
+			My book is a destined to be a classic and I desire to see people changed by the word of God
+			</p>
+			<footer class="button-container">
+				<a class="button see-menu-button" href="book.html">READ MORE</a>
+			</footer>
+	</article>
+	<figure class="lower-image-container">
+		<img class="lower-image" src="BPbookImage.jpg" alt="Book image">
+	</figure>
+		</section>
+			<section class="section-cover">
+				<article class="lower-article">
+				<span class="article-header">Questions?</span>
+				<span class="article-text">I'm available to chat! Reach out to me!</span>
+			</article>
+				<footer class="button-container">
+					<a class="button lower-article-button" href="orderForm.html">CONTACT ME</a>
+				</footer>
+			</section>
+    </main>
+    <footer class="footer">
+		<ul class="footer-links">
+	 <li><a href="#"> Contact Me </a></li>
+	 <li><a href="#">About Me</a></li>
+	 <li><a href="#"> Read Reviews </a></li>
+	 <li><a href="privacyPolicy.html">Privacy Policy </a></li>
+	 <li><a href="#">Terms & Conditions </a></li>
+	 <li> <a href="#">Credits</a></li>
+	</ul>
+	</footer>
+	<script>
+		function myFunction() {
+		  const x = document.getElementById("myLinks");
+		  const hero = document.querySelector(".title-box");
+		  if (x.style.display === "flex") {
+			x.style.display = "none";
+			hero.classList.remove("cover-all");
+		  } else {
+			x.style.display = "flex";
+			hero.classList.add("cover-all");
+		  }
+		}
+		</script>
+  </body>
+</html>

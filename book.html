@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Author, Speaker, Teacher, Benetta Perry: home page">
+	
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="mainstyles.css">
+	<link rel="stylesheet" type="text/css" href="indexStyles.css">
+	<link rel="stylesheet" type="text/css" href="bookstyles.css">
+    <title>
+      BP Author || Home
+    </title>
+  </head>
+  <body>
+    <header class="cover-page-two">
+		<nav class="nav-bar">
+		  <ul class="nonMobileSite-links">
+		  <li><a href="index.html"> Home </a></li>
+		  <li><a href="book.html"> Book </a></li>
+		  <li><a href="#"> Schedule </a></li>
+		  <li><a href="#"> Contact </a></li>
+		  </ul>
+	  </nav>
+	  <div class="mobile-container">
+		  <!-- Top Navigation Menu -->
+		  <div class="topnav">
+			<div id="myLinks">
+			  <a href="index.html">Home</a>
+			  <a href="book.html">Book</a>
+			  <a href="#">Schedule</a>
+			  <a href="#">Contact</a>
+			</div>
+			<span class="icon" onclick="myFunction()">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</span>
+		  </div>
+		  <!-- End smartphone / tablet look -->
+		  </div>
+	<div class="title-box">
+		<p class="sub-text">What is the will of God?
+		</p>
+	</div>
+</header>
+<main>
+		<div class="intro-box">
+		<p class="intro-text">
+			This Christian journey, called life, is not meant to be traveled alone. 
+			Join me and we can walk through these biblical principles together. 
+			At some point, on the journey, we all want to know God's will for our lives. </p>
+			<p class="intro-text">
+			As I did, we want to walk in our purpose and grow towards our divine destiny. 
+			It is very challenging for many to clearly discover their purpose. 
+			This personal study guide will give you specific biblical principles that are God's will for your life. 
+			No matter your spiritual maturity, start today, start here, start now, and allow this 
+			personal study guide to help you to level up. </p>
+			<p class="intro-text">
+			Following these biblical principles 
+			can give you confidence that your life will be aligned with God's will. 
+			After consistently following the action items as outlined in this personal study guide, 
+			you can feel confident that you now know the will of God for your life and you are walking, 
+			talking, thinking, and living in his will. 
+			Today, take this first step and seek to know the will of God for your life.
+		</p>
+	</div>
+	<footer class="button-container">
+		<a class="button learn-more-button" href="#">ORDER YOUR COPY TODAY</a>
+	</footer>
+</main>
+    <footer class="footer">
+		<ul class="footer-links">
+			<ul class="footer-links">
+				<li><a href="#"> Contact Me </a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#"> Read Reviews </a></li>
+				<li><a href="privacyPolicy.html">Privacy Policy </a></li>
+				<li><a href="#">Terms & Conditions </a></li>
+				<li> <a href="#">Credits</a></li>
+			   </ul>
+	 <!-- inside Credits page: Photo by Austin Schmid on Unsplash-->
+	 <!-- woman in red: Photo by Diana Simumpande on Unsplash-->
+	</ul>
+	</footer>
+	<script>
+		function myFunction() {
+		  const x = document.getElementById("myLinks");
+		  const hero = document.querySelector(".title-box");
+		  if (x.style.display === "flex") {
+			x.style.display = "none";
+			hero.classList.remove("cover-all");
+		  } else {
+			x.style.display = "flex";
+			hero.classList.add("cover-all");
+		  }
+		}
+		</script>
+  </body>
+</html>
